@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="circles"></div>
+      <h1>Simple, traffic-based pricing</h1>
+      <p>Sign-up for our 30-day trial. No credit card required.</p>
+    </header>
+    <main>
+      <div class="main-content">
+        <span class="main-header">100K PAGEVIEWS</span>
+        <div class="pricing">
+          <div class="slider">
+            <input type="range" min="1" max="5" value="3" id="slide" />
+            <div class="progress"></div>
+          </div>
+          <div class="price">
+            <div class="dollar">
+              $
+              <div class="value">16</div>
+            </div>
+            <div class="month">/month</div>
+          </div>
+        </div>
+        <div class="billing">
+          <div class="month">Monthly billing</div>
+          <label id="switch">
+            <input type="checkbox" value="false" class="check" />
+            <span class="slider2"></span>
+          </label>
+          <div class="yearly">Yearly Billing</div>
+          <div class="percent">-25% <span class="discount">discount</span></div>
+        </div>
+        <div class="line"></div>
+        <div class="bottom">
+          <div class="list">
+            <div class="check">
+              <img src="./images/icon-check.svg" alt="icon-check" />
+              <p>Unlimited websites</p>
+            </div>
+            <div class="check">
+              <img src="./images/icon-check.svg" alt="icon-check" />
+              <p>100% data ownership</p>
+            </div>
+            <div class="check">
+              <img src="./images/icon-check.svg" alt="icon-check" />
+              <p>Email reports</p>
+            </div>
+          </div>
+          <button class="button">Start my trial</button>
+        </div>
+      </div>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>
+*
