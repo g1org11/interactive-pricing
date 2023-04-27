@@ -50,6 +50,7 @@ header p {
 main {
   display: flex;
   flex-direction: column;
+  text-align: center;
   margin: -140px 24px 0px;
   background-color: #ffffff;
   box-shadow: 0px 20px 30px -5px rgba(127, 137, 185, 0.152073);
@@ -184,4 +185,79 @@ input:checked + .slider2 {
 }
 input:checked + .slider2:before {
   transform: translateX(21px);
+}
+month,
+.yearly {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #848ead;
+}
+.discount {
+  display: none;
+}
+.percent {
+  font-weight: 800;
+  font-size: 10px;
+  line-height: 14px;
+  text-align: center;
+  color: #ff8d68;
+  background-color: #feede8;
+  border-radius: 9.5px;
+  padding: 1.5px 8px;
+  margin-left: -6.5px;
+}
+.discount {
+  font-weight: 800;
+  font-size: 10px;
+  line-height: 14px;
+  text-align: center;
+  color: #ff8d68;
+  margin-left: 2px;
+}
+
+.line {
+  border: 0.5px solid #ecf0fb;
+  width: 100%;
+}
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 24px;
+}
+.list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 11px;
+  margin-bottom: 33px;
+}
+.check {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.check p {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #848ead;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20.5px;
+  background-color: #293356;
+  height: 41px;
+  width: 170px;
+  color: #becdff;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  cursor: pointer;
+  border: 0px;
 }
