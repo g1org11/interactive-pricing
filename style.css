@@ -261,3 +261,119 @@ month,
   cursor: pointer;
   border: 0px;
 }
+@media only screen and (min-width: 1024px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  header {
+    display: flex;
+    padding: 104px 0px 275px;
+    width: 100%;
+  }
+
+  header h1 {
+    font-size: 28px;
+    line-height: 38px;
+    margin-bottom: 12px;
+  }
+  header p {
+    font-size: 15px;
+    line-height: 20px;
+    max-width: 367px;
+  }
+  main {
+    width: 540px;
+    margin: -160px 24px 0px;
+    align-items: center;
+  }
+  .main-cont {
+    margin: 58px 0px 33px;
+  }
+  .main-header {
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    margin-left: -290px;
+  }
+  .slider {
+    margin: 0px 24px;
+  }
+  .slider input {
+    width: 444px;
+  }
+  .pricing {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: -40px 48px 40px;
+    align-items: flex-end;
+  }
+  .price {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+  }
+  .dollar,
+  .value {
+    font-size: 40px;
+    line-height: 55px;
+    letter-spacing: -1px;
+  }
+
+  .billing {
+    gap: 16px;
+    margin: 0px 0px 40px;
+    justify-content: flex-end;
+    margin-right: 85px;
+  }
+  .discount {
+    display: flex;
+  }
+  .percent {
+    display: flex;
+    flex-direction: row;
+  }
+  .bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 32px;
+  }
+  .list {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 11px;
+    margin-bottom: 0px;
+  }
+  .check {
+    display: flex;
+    gap: 16px;
+  }
+  .check p {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #848ead;
+  }
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20.5px;
+    background-color: #293356;
+    height: 41px;
+    width: 170px;
+    color: #becdff;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .button:hover {
+    color: #ffffff;
+  }
+}

@@ -15,7 +15,7 @@ let checkIt = (slide.oninput = function () {
   if (slide.value == 1 && check.className == "check active") {
     progress.style.width = 0 + "%";
     views.innerHTML = 10 + "K PAGEVIEWS";
-    price.innerHTML = (8 - 8 * 0.25) * (12).toFixed(2);
+    price.innerHTML = ((8 - 8 * 0.25) * 12).toFixed(2);
     time.innerHTML = "/year";
   } else if (slide.value == 1) {
     progress.style.width = 0 + "%";
